@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruktlista</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body class="min-h-screen bg-slate-100 p-8 text-slate-900">
+    <h1 class="text-3xl font-bold">Fruktlista</h1>
+    <!-- Version 1
+    <label class="mt-4 block">
+      Sök
+      <input id="search" type="text" class="rounded border border-slate-300 bg-white p-2" />
+    </label>
+    -->
+    <!-- Version 3
+    <label class="mt-2 block">
+      Sortera
+      <select id="sort" class="rounded border border-slate-300 bg-white p-2">
+        <option value="standard">Standardordning</option>
+        <option value="pris">Lägsta pris först</option>
+      </select>
+    </label>
+    -->
+    <ul id="list" class="mt-4 list-disc space-y-1 pl-6 text-lg"></ul>
+  </body>
+</html>
